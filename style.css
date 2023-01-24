@@ -14,7 +14,7 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  padding: 48px;
+  padding: 36px;
   background-color: #09090a;
 
   position: fixed;
@@ -46,7 +46,6 @@ button {
 }
 
 .habits {
-  margin-top: 56px;
   display: flex;
   flex-direction: column;
 
@@ -109,7 +108,29 @@ input:checked {
 }
 
 @media (max-width: 570px) {
+  div.habits {
+    margin-top: 56px;
+  }
+
   button div {
     display: none;
+  }
+
+  div.desktopLogo {
+    display: none;
+  }
+}
+
+@media (min-width: 571px) {
+  div.habits {
+    margin-top: 96px;
+  }
+
+  div.mobileLogo {
+    display: none;
+  }
+
+  div.day {
+    margin-top: 42px;
   }
 }
