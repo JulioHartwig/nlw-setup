@@ -48,7 +48,7 @@ button {
 .habits {
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
 
   gap: 24px;
 
