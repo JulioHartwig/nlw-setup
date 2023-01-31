@@ -48,7 +48,6 @@ button {
 .habits {
   display: flex;
   flex-direction: column;
-  position: sticky;
 
   gap: 24px;
 
@@ -70,6 +69,7 @@ button {
   display: flex;
   gap: 48px;
   margin-left: 32px;
+  overflow-x: auto;
 }
 
 .day {
